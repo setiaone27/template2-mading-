@@ -1,0 +1,156 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Papan Informasi - SMK Dwiguna Depok</title>
+  <!-- CSS Bootstrap -->
+  <link rel="stylesheet" href="assets/depan/css/bootstrap.min.css">
+  <!-- CSS Slider Jurusan -->
+  <link rel="stylesheet" href="assets/depan/css/anythingsliderjurusan.css">
+  <link rel="stylesheet" href="assets/depan/css/theme-metallic-jurusan.css">
+  <!-- CSS Slider Utama -->
+  <link rel="stylesheet" href="assets/depan/css/anythingsliderutama.css">
+  <link rel="stylesheet" href="assets/depan/css/theme-metallic-utama.css">
+  <!-- Logo TItle -->
+  <link rel="shortcut icon" href="assets/depan/img/logo.png">
+  <style>
+      /* Style Slider Jurusan */
+      ul.sliderjurusan, ul.sliderjurusan li {
+        list-style: none;
+      }
+      /* Style Slider Utama */
+      ul.sliderutama, ul.sliderutama li {
+        list-style: none;
+      }
+      /* Style Width & Height SLider Jurusan Buat TV */
+      .sliderjurusan {
+      	width: 100%;
+      	/*height: 158px;*/
+        height: 9.87em;
+      }
+      /* Style Width & Height SLider Utama Buat TV */
+      .sliderutama{
+        width: 100%;
+        height: 730px;
+      }
+      /* Style Col 3 Bootstrap */
+      .col-3{
+        padding: 0;
+        float: left;
+        text-align: center;
+        background-color: #ff6600;
+      }
+      /* Style Col 9 Bootstrap */
+      .col-9{
+        padding: 0;
+        width: 100%;
+        float: left;
+        text-align: center;
+	      background-color: black;
+      }
+      /* Style Tulisan Berjalan */
+      .tulisan {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        z-index: 15;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: center;
+        justify-content: center;
+        padding-left: 0;
+        list-style: none;
+        background-color: #ff3300;
+        height: 40px;
+        color: white;
+        font-size: 20pt;
+        margin-bottom: -38px;
+        font-family: ubuntu;
+        font-weight: bold;
+      }
+  </style>
+</head>
+<body>
+
+  <!-- Start Col 3 Bootstrap -->
+  <div class="col-3">
+
+    <!-- Start Slider Jurusan Administrasi Perkantoran -->
+    <ul class="sliderjurusan">
+              <li><img src="assets/depan/img/slider/ap/ap1.jpg" alt="" style="height: 1500px;"/></li>
+              <li><img src="assets/depan/img/slider/ap/ap2.jpg" alt="" style="height: 1500px;"/></li>
+          </ul>
+    <!-- End Slider Jurusan Administrasi Perkantoran -->
+
+    <!-- Start Slider Jurusan Rekayasa Perangkat Lunak -->
+    <ul class="sliderjurusan">
+              <li><img src="assets/depan/img/slider/rpl/rpl1.jpg" alt="" /></li>
+              <li><img src="assets/depan/img/slider/rpl/rpl2.jpg" alt="" /></li>
+          </ul>
+    <!-- End Slider Jurusan Rekayasa Perangkat Lunak -->
+
+    <!-- Start Slider Jurusan Teknik Kendaraan Ringan -->
+    <ul class="sliderjurusan">
+              <li><img src="assets/depan/img/slider/tkr/tkr1.jpg" alt="" /></li>
+              <li><img src="assets/depan/img/slider/tkr/tkr2.jpg" alt="" /></li>
+          </ul>
+    <!-- Start Slider Jurusan Teknik Kendaraan Ringan -->
+
+    <!-- Start Slider Jurusan Teknik Sepeda Motor -->
+    <ul class="sliderjurusan">
+              <li><img src="assets/depan/img/slider/tsm/tsm1.jpg" alt="" /></li>
+              <li><img src="assets/depan/img/slider/tsm/tsm1.jpg" alt="" /></li>
+          </ul>
+    <!-- End Slider Jurusan Teknik Sepeda Motor -->
+
+    <!-- Start Date & Time -->
+    <div style="background-image: linear-gradient(to bottom,  #ff3300 , #ff6600); height: 136px; width: 100%; font-family: ubuntu; font-weight: bold;">
+      <br>
+      <h3 id="localtime" style="font-size: 40px;"></h3>
+      <h5 style="color: white;">Senin, 09 Maret 2020</h5>
+      <span style="color: white;">🎓 SMK Dwiguna Depok 🎓</span>
+    </div>
+    <!-- End Date & Time -->
+
+  </div>
+  <!-- End Col 3 Bootstrap -->
+
+  <!-- Start Col 9 Bootstrap -->
+  <div class="col-9">
+    <!-- Start Slider Utama-->
+    <ul class="sliderutama">
+      <!-- Start Slider Utama Gambar -->
+              <li><img src="assets/depan/img/slider/1.jpg" alt="" /></li>
+              <li><img src="assets/depan/img/slider/2.jpg" alt="" /></li>
+              <li><img src="assets/depan/img/slider/3.jpg" alt="" /></li>
+            <!-- End Slider Utama Gambar -->
+    </ul>
+    <!-- End Slider Utama-->
+
+    <!-- Start Tulisan Berjalan -->
+    <div class="tulisan"><marquee behavior="" direction="left" scrollamount="10">༻ SELAMAT DATANG DI SMK DWIGUNA KOTA DEPOK ༻༺ ALAMAT KAMPUS : JL. RAYA CITAYAM GG. H. DUL NO. 32 KELURAHAN BOJONG PONDOK TERONG KECAMATAN CIPAYUNG KOTA DEPOK, JAWA BARAT 16431 ༻༺ EMAIL : SMK.DWIGUNA@GMAIL.COM ༻༺ WEBSITE : DWIGUNA.INFO ༺</marquee></div>
+    <!-- End Tulisan Berjalan -->
+
+  </div>
+  <!-- End Col 9 Bootstrap -->
+
+<!--- COPYRIGHT SMK DWIGUNA 2018 -->
+
+<!-- Jquery -->
+<script src="assets/depan/js/jquery-3.3.1.js"></script>
+<!-- Bootstrap -->
+<script src="assets/depan/js/bootstrap.min.js"></script>
+<!-- JS Slider -->
+<script src="assets/depan/js/jquery.anythingslider.js"></script>
+<script src="assets/depan/js/jquery.easing.1.2.js"></script>
+<script src="assets/depan/js/swfobject.js"></script>
+<!-- JS Slider Jurusan -->
+<script src="assets/depan/js/sliderjurusan.js"></script>
+<!-- JS Slider Utama -->
+<script src="assets/depan/js/sliderutama.js"></script>
+<!-- JS Time  -->
+<script src="assets/depan/js/time/time.js"></script>
+</body>
+</html>
